@@ -27,10 +27,6 @@ Then call the plugin on the element you want to insert the video to and at least
 **Do not include the script directly from GitHub (http://raw.github.com/...).** The file is being served as text/plain and as such being blocked
 in Internet Explorer on Windows 7 for instance (because of the wrong MIME type). Bottom line: GitHub is not a CDN.
 
-## Testing
-
-The code is currently only tested on the latest Chrome Build.
-
 ## Options
 
 ### videoid
@@ -50,6 +46,10 @@ If true, plays as soon as the video is loaded. Can be set to true or false.
     loop: false
 
 If true, starts the video again when it reaches the end. Can be set to true or false.
+
+## Testing
+
+The code is currently only tested on the latest Chrome Build.
 
 ## Development
 
