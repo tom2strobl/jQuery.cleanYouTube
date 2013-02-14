@@ -1,4 +1,4 @@
-![Screenshot](http://tom2strobl.github.com/jQuery.cleanYouTube/screenshot.png)
+![Screenshot](https://raw.github.com/tom2strobl/jQuery.cleanYouTube/master/screenshot.png)
 
 # jquery.cleanYouTube
 
