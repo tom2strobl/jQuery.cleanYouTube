@@ -11,6 +11,16 @@ In your head, include the provided CSS-File (I've stripped the whole CSS to a fi
 Include the script *after* you included the jQuery library (unless you are packaging scripts somehow else):
 
     <script src="/path/to/jQuery.cleanYouTube.js"></script>
+    
+Then call the plugin on the element you want to insert the video to:
+    
+    <script>
+    	$(document).ready(function(){
+			$('.video').cleanYouTube({
+				'videoid' : 'pg4mnnZStU8'
+			});
+		});
+	</script>
 
 **Do not include the script directly from GitHub (http://raw.github.com/...).** The file is being served as text/plain and as such being blocked
 in Internet Explorer on Windows 7 for instance (because of the wrong MIME type). Bottom line: GitHub is not a CDN.
@@ -23,9 +33,9 @@ The code is currently only tested on the latest Chrome Build.
 
 ### videoid
 
-    videoid: 'example.com'
+    videoid: 'c1PbjssaNAg'
 
-Define the videoid from a YouTube URL. eg: http://www.youtube.com/watch?v= **c1PbjssaNAg**
+Define the videoid from a YouTube URL. eg: http://www.youtube.com/watch?v=**c1PbjssaNAg**
 
 ### autoplay
 
