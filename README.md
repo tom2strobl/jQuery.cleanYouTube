@@ -63,7 +63,7 @@ Pull requests are very welcome! Everyone is invited to improve the plugin, it's 
 
 Altough it completely works in Chrome it drops two Errors from the YouTube API itself:
 
-	Unable to post message to http://www.youtube.com. Recipient has origin http://localhost.
+	Unable to post message to http://www.youtube.com. Recipient has origin http://...
 	GET http://www.youtube.com/get_video... 404 (Not Found)
 
 ## Authors
