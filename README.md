@@ -14,11 +14,13 @@ Include the script *after* you included the jQuery library (unless you are packa
 
     <script src="/path/to/jQuery.cleanYouTube.js"></script>
     
-Then call the plugin on the element you want to insert the video to:
+Then call the plugin on the element you want to insert the video to and at least specify the *videoid*:
     
     <script>
 	$('.video').cleanYouTube({
-		'videoid' : 'pg4mnnZStU8'
+		'videoid' : 'pg4mnnZStU8',
+		'autoplay' : false,
+    		'loop' : false
 	});
 	</script>
 
@@ -35,7 +37,7 @@ The code is currently only tested on the latest Chrome Build.
 
     videoid: 'c1PbjssaNAg'
 
-Define the videoid from a YouTube URL. eg: http://www.youtube.com/watch?v=**c1PbjssaNAg**
+Define the videoid from a YouTube URL. eg: http://www.youtube.com/watch?v= **c1PbjssaNAg**
 
 ### autoplay
 
