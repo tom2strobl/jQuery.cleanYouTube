@@ -1,8 +1,7 @@
-// clean Youtube Plugin
 (function($) {
   $.fn.cleanYouTube = function(options) {
 
-		// plugin defaults
+	// plugin defaults
     $.fn.cleanYouTube.defaults = {
     	'videoid' : 'c1PbjssaNAg',
     	'autoplay' : false,
@@ -91,29 +90,29 @@
       } 
 		}
 
-		// helperfunction for calculations
+	// helperfunction for calculations
     function pad2(number) {
       parseInt(number);
       return (number < 10 ? '0' : '') + number
     }
 
     // gets called every 250ms to update progressbar and numbers
-		function updateytplayerInfo() {
-      var vid_duration = player.getDuration().toFixed();
-      var vid_mins = Math.floor(vid_duration/60);
-      var vid_seconds = vid_duration%60;
-      $("#videoduration").html(pad2(vid_mins.toFixed().toString())+":"+pad2(vid_seconds.toString()));
-      var vid_ctime = player.getCurrentTime().toFixed();
-      var vid_cmins = Math.floor(vid_ctime/60);
-      var vid_cseconds = vid_ctime%60;
-      $("#videotime").html(pad2(vid_cmins.toFixed().toString())+":"+pad2(vid_cseconds.toString()));
-      var val = player.getCurrentTime();
-      var val2 = player.getDuration();
-      var val3 = val/val2*100;
-      $('#videoProgress').val(val3);
-      var maxw = $('#videoProgress').width();
-			var newwidth = maxw * val3 / 100 + 3;
-			$('#videoProgressFill').width(newwidth);
+	function updateytplayerInfo() {
+	    var vid_duration = player.getDuration().toFixed();
+	    var vid_mins = Math.floor(vid_duration/60);
+	    var vid_seconds = vid_duration%60;
+	    $("#videoduration").html(pad2(vid_mins.toFixed().toString())+":"+pad2(vid_seconds.toString()));
+	    var vid_ctime = player.getCurrentTime().toFixed();
+	    var vid_cmins = Math.floor(vid_ctime/60);
+	    var vid_cseconds = vid_ctime%60;
+	    $("#videotime").html(pad2(vid_cmins.toFixed().toString())+":"+pad2(vid_cseconds.toString()));
+	    var val = player.getCurrentTime();
+	    var val2 = player.getDuration();
+	    var val3 = val/val2*100;
+	    $('#videoProgress').val(val3);
+	    var maxw = $('#videoProgress').width();
+		var newwidth = maxw * val3 / 100 + 3;
+		$('#videoProgressFill').width(newwidth);
     }
 
     // fullscreen api
