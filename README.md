@@ -53,7 +53,7 @@ If true, starts the video again when it reaches the end. Can be set to true or f
 
 ## Development
 
-Pull requests are very welcome! Everyone is invited to improve the plugin.
+Pull requests are very welcome! Everyone is invited to improve the plugin, it's certainly not js-guru-like.
 
 ## Authors
 
