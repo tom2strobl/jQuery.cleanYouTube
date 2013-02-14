@@ -20,7 +20,7 @@ Then call the plugin on the element you want to insert the video to and at least
 	$('.video').cleanYouTube({
 		'videoid' : 'pg4mnnZStU8',
 		'autoplay' : false,
-    			'loop' : false
+    	'loop' : false
 	});
 	</script>
 
