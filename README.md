@@ -15,11 +15,9 @@ Include the script *after* you included the jQuery library (unless you are packa
 Then call the plugin on the element you want to insert the video to:
     
     <script>
-    	$(document).ready(function(){
-			$('.video').cleanYouTube({
-				'videoid' : 'pg4mnnZStU8'
-			});
-		});
+	$('.video').cleanYouTube({
+		'videoid' : 'pg4mnnZStU8'
+	});
 	</script>
 
 **Do not include the script directly from GitHub (http://raw.github.com/...).** The file is being served as text/plain and as such being blocked
