@@ -4,6 +4,10 @@
 
 A jQuery plugin for usage of the chromeless YouTube API with a very clean skin. It also clears the red Youtube-Play-Buttons at the start and the end of the video.
 
+## WARNING
+
+**This Plugin in still under HEAVY development and currently only works in Chrome perfectly. The CSS is messy, you can't define sizes and it may look weird in other browsers than the latest Chrome build.**
+
 ## Installation
 
 In your head, include the provided CSS-File (I've stripped the whole CSS to a file so it's easy to customize). The font for the controls is already base-encoded within that CSS file.
