@@ -1,3 +1,5 @@
+![Screenshot](tom2strobl.github.com/jQuery.cleanYouTube/screenshot.jpg)
+
 # jquery.cleanYouTube
 
 A jQuery plugin for usage of the chromeless YouTube API with a very clean skin. It also clears the red Youtube-Play-Buttons at the start and the end of the video.
