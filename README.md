@@ -16,7 +16,7 @@ In your head, include the provided CSS-File (I've stripped the whole CSS to a fi
 
 Include the script *after* you included the jQuery library (unless you are packaging scripts somehow else):
 
-    <script src="/path/to/jQuery.cleanYouTube.js"></script>
+    <script src="/path/to/jQuery.cleanYouTube.min.js"></script>
     
 Then call the plugin on the element you want to insert the video to and at least specify the *videoid*:
     
